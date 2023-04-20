@@ -1,8 +1,40 @@
-<html>
-    <head>
-        <title>Ejemplo de CSS basico</title>
-    </head>
-    <body>
-        <h1 id="tituloprincipal">Bienvenido a mi pagina web
-    </body>
-</html>
+h1 {
+    color: navy;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid navy;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0-3s ease-in-out;
+
+}
+
+li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
