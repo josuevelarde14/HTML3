@@ -4,11 +4,6 @@ h1 {
     text-align: center;
 }
 
-p {
-    font-size: 15px;
-    text-align: center;
-    color: blue
-}
 
 img {
     display: block;
@@ -38,26 +33,9 @@ li {
     text-align: center;
     transition: all 0-3s ease-in-out;
 
-
 }
 
 li:hover {
     transform: scale(1.2);
     cursor: pointer;
-    color:chocolate;
-    border: red 5px dotted;
 }
-
-
-img:focus {
-    width: 70px;
-    height: 74px;
-  }
-
-/*btnControl {
-    display: none;
-}
-
-btnControl:checked + label > img {
-    width: 70px;
-    height: 74px;}*/
